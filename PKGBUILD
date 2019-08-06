@@ -2,7 +2,7 @@
 
 pkgname=arch-bootstrap-current
 _prefix="/opt"
-pkgver=2019.06.01
+pkgver=2019.07.01
 pkgrel=1
 epoch=
 pkgdesc="Arch Linux's current boostrap image"
@@ -25,7 +25,7 @@ _filename="${pkgname}.tar.gz"
 source=("${_filename}"::"https://mirrors.kernel.org/archlinux/iso/${pkgver}/archlinux-bootstrap-${pkgver}-${CARCH}.tar.gz")
 noextract=("${_filename}")
 
-sha256sums=('9da7fea13bce13c6edb2235e190aaf1da1d8e77bc18c3281bb37f7c587018284')
+sha256sums=('adeb962d44ed2fcc2d04307edf0b5cd1769057a6f9c8d27853b9773905b976b0')
 
 package() {
   cd "${srcdir}/"
