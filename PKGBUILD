@@ -2,7 +2,7 @@
 
 pkgname=arch-bootstrap-current
 _prefix="/opt"
-pkgver=2019.11.01
+pkgver=2019.12.01
 pkgrel=1
 epoch=
 pkgdesc="Arch Linux's current boostrap image"
