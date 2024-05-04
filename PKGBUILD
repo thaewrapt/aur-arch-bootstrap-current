@@ -2,7 +2,7 @@
 
 pkgname=arch-bootstrap-current
 _prefix="/opt"
-pkgver=2024.04.01
+pkgver=2024.05.01
 pkgrel=1
 epoch=
 pkgdesc="Arch Linux's current bootstrap image"
@@ -21,11 +21,11 @@ backup=()
 options=()
 install=
 changelog=
-_filename="${pkgname}.tar.gz"
-source=("${_filename}"::"https://mirrors.kernel.org/archlinux/iso/${pkgver}/archlinux-bootstrap-${pkgver}-${CARCH}.tar.gz")
+_filename="${pkgname}.tar.zst"
+source=("${_filename}"::"https://mirrors.kernel.org/archlinux/iso/${pkgver}/archlinux-bootstrap-${pkgver}-${CARCH}.tar.zst")
 noextract=("${_filename}")
 
-sha256sums=('4bec04366a1fbfeee73f826ba52ef8c59961315d81e5de1f86e8efec1bc91fe5')
+sha256sums=('c20585aad50f15b85649d55a1848403309da8ddff4815f31b9fda20ec4a70fce')
 
 package() {
   cd "${srcdir}/"
