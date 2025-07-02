@@ -1,12 +1,12 @@
 pkgbase = arch-bootstrap-current
 	pkgdesc = Arch Linux's current bootstrap image
-	pkgver = 2025.06.01
+	pkgver = 2025.07.01
 	pkgrel = 1
 	url = https://www.archlinux.org/download/
 	arch = x86_64
 	license = GPL
 	noextract = arch-bootstrap-current.tar.zst
-	source = arch-bootstrap-current.tar.zst::https://mirrors.kernel.org/archlinux/iso/2025.06.01/archlinux-bootstrap-2025.06.01-x86_64.tar.zst
-	sha256sums = 84bb1c26aed40e6797770f788186b5011970e670cb4b0c8519b6d6884c0c8e2f
+	source = arch-bootstrap-current.tar.zst::https://mirrors.kernel.org/archlinux/iso/2025.07.01/archlinux-bootstrap-2025.07.01-x86_64.tar.zst
+	sha256sums = bc943f1d3d25d9350a23574b7eacdd8e00badd8f546ce05929d233b404bfd155
 
 pkgname = arch-bootstrap-current
