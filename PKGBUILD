@@ -2,7 +2,7 @@
 
 pkgname=arch-bootstrap-current
 _prefix="/opt"
-pkgver=2026.02.01
+pkgver=2026.03.01
 pkgrel=1
 epoch=
 pkgdesc="Arch Linux's current bootstrap image"
